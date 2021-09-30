@@ -2,8 +2,8 @@
 
 
 :root {
-    --primary-color: #28831e;
-    --faint-color: rgb(40, 131, 30, 0.6);
+    --primary-color: #200a9e;
+    --faint-color: rgba(3, 5, 22, 0.6);
 }
 
 * {
