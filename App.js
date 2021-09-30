@@ -20,7 +20,7 @@ nextButton.addEventListener("click", function validateBillAmount(){
         //bonus challenge
         showOnNext.style.display = "block";
     }else{
-        showNextMessage("🤷‍♀️ Bill amount should be greater than zero ");
+        showNextMessage("Bill amount should be greater than zero ");
     }
 })
 
@@ -38,7 +38,7 @@ checkButton.addEventListener("click", function processing(){
         console.log("cash < 0");
         console.log(billAmount.value + " bill iffs");
         console.log(cashGiven.value + " cash iffs");
-        showCheckMessage("🙄 Cash given should be greater than zero");
+        showCheckMessage("Cash given should be greater than zero");
         return;
     }else if(cashGiven.value === billAmount.value){
         console.log("cash == bill");
@@ -66,7 +66,7 @@ checkButton.addEventListener("click", function processing(){
         console.log(billAmount.value + " bill iffs");
         console.log(cashGiven.value + " cash iffs");
 
-        showCheckMessage("🙄 Cash given should be greater than bill amount");
+        showCheckMessage("Cash given should be greater than bill amount");
 
         return;
     }
